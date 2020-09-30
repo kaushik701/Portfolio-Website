@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaushik's Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h3>DEV-IYER</h3>
+      </div>
+      <button class="nav-toggle" aria-label="toogle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav-item"><a href="#home" class="nav__link">HOME</a></li>
+          <li class="nav-item">
+            <a href="#services" class="nav__link">MY SERVICES</a>
+          </li>
+          <li class="nav-item"><a href="#about" class="nav__link">ABOUT ME</a></li>
+          <li class="nav-item"><a href="#work" class="nav__link">MY WORK</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--INTRODUCTION-->
+
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        HI, I Am <strong>Kaushik.S.Iyer</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">FRONT-END DEV</p>
+      <img src="/images/coffeecup.jpeg" alt="dp" class="intro__img" />
+    </section>
+
+    <!--MY SERVICES-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">WHAT I DO</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design + Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eum,
+            pariatur repellat suscipit debitis ipsam eveniet expedita nisi,
+            magni doloremque exercitationem ea eaque accusantium impedit?
+          </p>
+        </div>
+        <div class="service">
+          <h3>ML Engineer</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            impedit itaque unde nulla earum quas possimus minima, facere
+            consequuntur quo quam totam vero maiores dolore non beatae facilis
+            nam nostrum!
+          </p>
+        </div>
+        <div class="service">
+          <h3>React.js</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae,
+            officia quam pariatur amet suscipit facilis consequuntur eum quas
+            minus dignissimos.
+          </p>
+        </div>
+      </div>
+      <a href="#work" class="btn">MY WORK</a>
+    </section>
+
+    <!--about me-->
+
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I Am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Designer and Developer based on Mumbai
+      </p>
+      <div class="about-me__body">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta soluta
+          non ipsum et facilis quae reprehenderit enim adipisci eaque? Atque
+          officiis corporis fuga nesciunt maxime.
+        </p>
+      </div>
+      <img src="/images/beans.jpg" alt="my pic" class="about-me__img" />
+    </section>
+
+    <!--My Work-->
+
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">MY WORK</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A Selection of my range of Work
+      </p>
+      <div class="portfolio">
+        <a href="#" class="portfolio__item">
+          <img
+            src="/images/coursera.jpeg"
+            alt="port-1"
+            class="portfolio__img"
+          />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img src="/images/udemy.png" alt="port-2" class="portfolio__img" />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img
+            src="/images/coffeecup.jpeg"
+            alt="port-3"
+            class="portfolio__img"
+          />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img src="/images/udemy.png" alt="port-4" class="portfolio__img" />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img
+            src="/images/coursera.jpeg"
+            alt="port-5"
+            class="portfolio__img"
+          />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img src="/images/laptop.jpeg" alt="port-5" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+      <a href="iyerkaushik82@gmail.com" class="footer__link"
+        >iyerkaushik82@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.github.com">
+            <img src="/images/github-icon.png" alt="" />
+          </a>
+        </li>
+        <br />
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.linkedin.in">
+            <img src="/images/linkedin-icon1.png" alt="" />
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="/CSS/index.js"></script>
+  </body>
+</html>
