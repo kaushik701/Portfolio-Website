@@ -1,0 +1,274 @@
+/* Nothing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+.header nav {
+  padding: 18px;
+  transition: all 0.5s ease;
+}
+.header.Shrink nav {
+  background: #e5aee6;
+  color: white;
+  padding: 5px !important;
+  border-bottom: 2px solid #af29b4;
+}
+.header {
+  height: 100vh;
+  background: url("/imgs/header.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.header .Overlay {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.header .Overlay .Content {
+  max-width: 900px;
+  width: 90%;
+}
+.header .Overlay .Content h1 {
+  color: #bd8cbf;
+  font-size: 500%;
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.header .Overlay .Content h3 {
+  font-size: 200%;
+  font-weight: 600;
+  font-family: "Segoe Script", cursive;
+}
+.header .Overlay .Content p {
+  font-size: 120%;
+}
+.HeaderBtn {
+  padding: 10px 25px;
+  border: 2px solid rgb(134, 134, 134);
+  border-radius: 30px;
+  color: black;
+  font-weight: 700;
+  background: transparent;
+  outline: none;
+}
+.HeaderBtn:hover {
+  background: #bd8cbf;
+  color: white;
+  border: 2px solid #af29b4;
+}
+.MainLogo {
+  color: black;
+  font-family: "Segoe Script", cursive;
+  font-size: 30px;
+  font-weight: 900;
+}
+.SubLogo {
+  color: #bd8cbf;
+}
+.SubLogo2 {
+  color: #af29b4;
+}
+.nav-link.active {
+  background: darkslateblue;
+  color: white;
+}
+.nav-link {
+  padding: 10 20px !important;
+  color: black;
+  border-radius: 3px;
+}
+.card-body {
+  text-align: center;
+  background: #af29b4;
+  color: white;
+  padding: 1rem !important;
+}
+.card-body h4 {
+  font-weight: 700;
+}
+#about .AboutTitle {
+  margin: 20px 0;
+}
+#about .AboutTitle h3 {
+  font-weight: 800;
+}
+#about .row {
+  box-shadow: 0 0 10px black;
+  padding: 20px 30px;
+  background: #e5aee6cc;
+}
+#about .AboutOvelay {
+  padding: 30px 0;
+  background: url("/imgs/about.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+#about .AboutTxt {
+  text-align: justify;
+  padding: 10px;
+}
+#about .AboutTxt h2 {
+  text-align: center;
+  font-weight: 700;
+}
+#about .AboutTitle {
+  margin: 20px 0;
+  font-weight: 700;
+}
+#service .ServiceOverlay {
+  background: url("/imgs/service.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+#service .card-body {
+  padding: 5px !important;
+}
+#service i.fa {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px;
+}
+#travel .traveloverlay {
+  background: url("/imgs/agency.jpg");
+  background-attachment: fixed;
+  position: relative;
+  height: 100%;
+}
+#travel .TravelImage {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+#travel .TravelImage img {
+  width: 100%;
+}
+#travel .TravelImage .PictureTxt {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#travel .TravelImage .PictureTxt h3 {
+  color: white;
+}
+#travel .TravelTxt {
+  background: rgba(47, 79, 79, 0.8);
+  padding: 20px 30px;
+}
+#travel .TravelTxt p {
+  font-size: 18px;
+  color: #ffffff;
+}
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 90%;
+}
+#contact form div {
+  margin: 10px 0;
+}
+#contact form div.SubmitBtn input[type="submit"] {
+  padding: 10px 30px;
+  color: white;
+  font-weight: 700;
+  background: #af29b4;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+#contact .ContactOverlay {
+  background: url("/imgs/contact.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+#contact .ContactForm {
+  background: #ae58b186;
+}
+#contact .ContactForm p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}
+#slider .SliderOverlay {
+  background: url("/imgs/slider.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+#slider .carousel-inner {
+  max-width: 850px;
+  margin: 0 auto;
+}
+#slider .carousel-inner img {
+  height: 450px;
+}
+#slider .SliderBtns {
+  margin-top: 15px;
+  position: relative;
+  width: calc(70px * 2 + 20px);
+  height: 100px;
+  float: right;
+  right: 50%;
+  transform: translateX(50%);
+}
+#slider .SliderBtns a {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #bd8cbf;
+  color: white;
+}
+#slider .SliderTxt p {
+  font-size: 19px;
+  font-weight: 600;
+}
+#Footer {
+  background: #bd8cbf;
+  border-top: 2px solid #af29b4;
+}
+#Footer .ShortLinks .footer-links ul {
+  padding: 10px;
+  margin: 0;
+}
+#Footer .ShortLinks .footer-links ul li {
+  list-style: none;
+}
+#Footer .ShortLinks .footer-links ul li a {
+  color: black;
+  font-weight: 600;
+}
+#Footer .FooterLogo {
+  display: flex;
+  height: 100%;
+  justify-content: left;
+  align-items: center;
+}
+.Footer-follow i {
+  margin-left: 10px;
+  padding: 10px;
+  background-color: darkslategray;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.GotoTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.GotoTop button {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background: darkslategray;
+  outline: none;
+}
